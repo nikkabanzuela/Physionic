@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header py-5">
+        <div class="container">
+            <div class="headerwrapper flex items-center justify-between">
+                <div class="headerLogo">
+                    <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+                </div>
+                <div class="headerNAV hidden md:block">
+                    <ul class="flex gap-5">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        
+
+                    </ul>
+                </div>
+                <div class="getAQuote hidden md:block">
+                    <a class="bg-primary p-3 rounded-md text-white font-semibold" href="#">Get a Quote Now</a>
+                </div>
+                <div class="flex gap-5 md:hidden">
+                <div class="searchAndCart flex gap-6">
+                    <i class="fa-solid fa-magnifying-glass text-DarkGray"></i>
+                    <i class="fa-solid fa-cart-shopping text-DarkGray"></i>
+                </div>
+             
+                <div class="toggleMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+            </div>
+            <div class="headerMobileNav transition-all duration-500">
+                <ul class="text-center text-[1.5rem] text-DarkGray font-semibold py-5">
+                    <li><a class="block p-3" href="#">Home</a></li>
+                    <li><a class="block p-3"href="#">Product</a></li>
+                    <li><a class="block p-3"href="#">Pricing</a></li>
+                    <li><a class="block p-3"href="#">Contact</a></li>
+                    
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="banner bg-blend-multiply bg-cover bg-no-repeat bg-DarkGray bg-[url('./img/hero-cover.jpg')] py-10 text-center">
+        <div class="container md:text-left">
+            <div class="bannerWrapper lg:flex ">
+                <div class=" py-72">
+                    <h1 class="text-huge text-white font-semibold ">Meet the Best Hospital</h1>
+                    <p class="text-white mb-6 w[70%] mx-auto">We know how large objects will act, but things on a small scale</p>
+                    <div class="lg:flex gap-2">
+                        <a class="bg-primary inline-block px-5 py-3 rounded-full text-white font-semibold mb-6" href="#">Get a Qoute Now</a> <br>
+                        <a class="bg-transparent border border-white inline-block px-5 py-3 rounded-full text-white font-semibold mb-6" href="#">Learn More</a>
+                    </div>
+                </div>
+    
+                <div class="bannerForm text-left bg-white p-10 rounded-lg w-[350px] my-10 mx-auto">
+                    <h3 class="text-center text-base font-bold mb-3">Book Appointment</h3>
+                    <form action="">
+                        <div class="inputGroup mb-3">
+                            <label for="">Name*</label><br>
+                            <input class="border-2 rounded-md p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                        <div class="inputGroup mb-3">
+                            <label for="">Name*</label><br>
+                            <input class="border-2 rounded-md p-3 w-full" type="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="inputGroup mb-3">
+                            <label for="">Department*</label><br>
+                            <input class="border-2 rounded-md p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                        <div class="inputGroup mb-3">
+                            <label for="">Time*</label><br>
+                            <input class="border-2 rounded-md p-3 w-full" type="text" placeholder="Fullname">
+                        </div>
+                    </form>  
+
+                    <button class="py-6">
+                        <a class="bg-primary px-12 py-4 text-white font-montserrat rounded-md" href="">Book Appointment</a>
+                    </button>
+                </div>
+      
+            </div>
+        </div>
+     </section>
+    <section class="features py-16">
+        <div class="container">
+            <h1 class="text-huge font-semibold mb-6 text-center">Leading Medicine</h1>
+            <p class="text-center mb-6 w-[70%] mx-auto">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+                <div class="feauturesWrapper grid grid-cols-1 lg:grid-cols-3 items-center mx-auto mb-20 gap-5">
+                    <div class="featurestype ">
+                        <div class="bg-primary flex rounded-lg py-5 px-5 md:px-10 items-center">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h1 class="text-white pb-5">Emergency Cases</h1>
+                      </div>
+                      <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                        <p>-  The best products start 
+                            with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a  class="text-primary py-5" href="">Learn More</a>
+
+                    </div>
+
+                    </div>
+                    <div class="featurestype">
+                        <div class="bg-primary flex rounded-lg py-5 px-5">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h1 class="text-white pb-5">Cancer Care</h1>
+                      </div>
+                      <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                        <p>-  The best products start 
+                            with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a  class="text-primary" href="">Learn More</a>
+
+                    </div>
+
+                    </div>
+
+                    <div class="featurestype ">
+                        <div class="bg-primary flex rounded-lg py-5 px-5">
+                        <img src="./img/icn-circle circle-md.png" alt="">
+                        <h1 class="text-white pb-5">Health Queries</h1>
+                      </div>
+                      <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                        <p>-  The best products start 
+                            with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a  class="text-primary" href="">Learn More</a>
+
+                    </div>
+
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    <section class="ratings py-10">
+        <div class="container">
+            <h1 class="text-huge font-bold mb-6 text-center md:overflow-hidden mt-0 md:invisible visible">What <br> Clients Say</h1>
+            <h1 class="md:text-huge md:font-semibold md:text-center md:mt-[-3rem] md:visible invisible">Leading Medicine</h1>
+            <p class="md:text-center md:mb-0 md:w-[70%] md:mx-auto md:visible invisible">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+            <div class="ratingsWrapper md:grid grid-cols-3 gap-3 mx-12 mt-10">
+                <div class="ratingsContent p-5 border-2 border-gray-400 mb-3">
+                    <div class="stars flex text-[1rem] text-yellow-400 mb-5">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="ratingsCom mb-3">
+                        <p>Slate helps you see how many 
+                            more days you need to work to 
+                            reach your financial goal.</p>
+                    </div>
+                    <div class="client">
+                        <img src="./img/dr.A.png" alt="">
+                    </div>
+                </div><div class="ratingsContent p-5 border-2 border-gray-400 mb-3">
+                    <div class="stars flex text-[1rem] text-yellow-400 mb-5">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="ratingsCom mb-3">
+                        <p>Slate helps you see how many 
+                            more days you need to work to 
+                            reach your financial goal.</p>
+                    </div>
+                    <div class="client">
+                        <img src="./img/dr.B.png" alt="">
+                    </div>
+                </div>
+                <div class="ratingsContent p-5 border-2 border-gray-400 mb-3">
+                    <div class="stars flex text-[1rem] text-yellow-400 mb-5">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="ratingsCom mb-3">
+                        <p>Slate helps you see how many 
+                            more days you need to work to 
+                            reach your financial goal.</p>
+                    </div>
+                    <div class="client">
+                        <img src="./img/dr.C.png" alt="">
+                    </div>
+                </div>
+
+    
+            </div>     
+        </div>
+    </section>
+
+    <section class="faq py-16 bg-gray-50">
+    <div class="container">
+        <div class="faqWrapper ">
+            <div class="faqTitle mb-3">
+                <div class="text-huge font-semibold mb-6 text-center ">
+                    <h1>FAQ</h1>
+                </div>
+                <div class="faqText mb-[5rem]">
+                    <p class="text-center mb-6 w-[70%] mx-auto">Problems trying to resolve 
+                        the conflict between the 
+                        two major realms of Classical 
+                        physics: Newtonian mechanics </p>
+                </div>
+
+            </div>
+            <div class="faqCard  md:grid grid-cols-3 gap-3 mx-12 mt-10 ">
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent hidden md:flex  md:mb-6  md:w-[100%]  md:mx-auto  md:px-5  md:py-3  md:rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent  hidden md:flex  md:mb-6  md:w-[100%]  md:mx-auto  md:px-5  md:py-3  md:rounded-md bg-white ">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent  hidden md:flex  md:mb-6  md:w-[100%]  md:mx-auto  md:px-5  md:py-3  md:rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="pricing bg-lightgray py-8">
+        <div class="container">
+            <div class="pricingWrapper">
+                <div class="pricingTitle  py-10">
+                        <h2 class="Title text-huge font-semibold mb-6 text-center ">Pricing</h2>
+                        <p class="text-center text-lg font-montserrat font-semibold text-darkGray mb-6 md:w-[45%] w-[70%] mx-auto">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+                </div>
+
+                <div class=" md:grid gap-0.5 grid-cols-3 md:w-[82%] md:mx-auto">
+                    <div class="pricingStyle border-primary border-2 rounded-md md:w-[100%] w-[70%] mx-auto md:mt-14 py-7 mb-7">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-montserrat font-bold my-7">FREE</h3>
+                            <h5 class="font-montserrat font-semibold text-darkGray">Organize across all <br> apps by hand</h5>
+                            <div class="inline-flex gap-2 items-center text-center text-primary my-7">
+                                <h2 class="font-semibold text-[40px]">0</h2>
+                                <div class="inline-block text-left">
+                                    <h5 class="text-base font-bold">$</h5>
+                                    <h6 class="text-sm">Per Month</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-left text-sm w-[80%] mx-auto font-bold text-primaryDark">
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-gray.png" alt="">
+                                <h6>1GB  Cloud storage</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-gray.png" alt="">
+                                <h6>Email and community support</h6>
+                            </div>
+                        </div>
+
+                        <button class="py-8 w-[100%] items-center">
+                            <a class="bg-primary px-16 py-4 text-white font-montserrat rounded-md text-center" href="">Try for free</a>
+                        </button>
+
+                        
+                    </div>
+                    <div class="bg-secondary pricingStyle border-primary border-2 rounded-md md:w-[100%] w-[70%] md:top-0 mx-auto py-7 mb-7">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-montserrat font-bold text-white my-7">STANDARD</h3>
+                            <h5 class="font-montserrat font-semibold text-white">Organize across all <br> apps by hand</h5>
+                            <div class="inline-flex gap-2 items-center text-center text-primary my-7">
+                                <h2 class="font-semibold text-[40px]">9.99</h2>
+                                <div class="inline-block text-left">
+                                    <h5 class="text-base font-bold">$</h5>
+                                    <h6 class="text-sm">Per Month</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-left text-sm w-[80%] mx-auto font-bold text-white">
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-gray.png" alt="">
+                                <h6>1GB  Cloud storage</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-gray.png" alt="">
+                                <h6>Email and community support</h6>
+                            </div>
+                        </div>
+
+                        <button class="py-8 w-[100%] items-center">
+                            <a class="bg-primary px-16 py-4 text-white font-montserrat rounded-md text-center" href="">Try for free</a>
+                        </button>
+
+                        
+                    </div>
+                    <div class="pricingStyle border-primary border-2 rounded-md md:w-[100%] w-[70%] mx-auto md:mt-14 py-7 mb-7">
+                        <div class="text-center">
+                            <h3 class="text-2xl font-montserrat font-bold my-7">PREMIUM</h3>
+                            <h5 class="font-montserrat font-semibold text-darkGray">Organize across all <br> apps by hand</h5>
+                            <div class="inline-flex gap-2 items-center text-center text-primary my-7">
+                                <h2 class="font-semibold text-[40px]">19.99</h2>
+                                <div class="inline-block text-left">
+                                    <h5 class="text-base font-bold">$</h5>
+                                    <h6 class="text-sm">Per Month</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-left text-sm w-[80%] mx-auto font-bold text-primaryDark">
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-main.png" alt="">
+                                <h6>Unlimited product updates</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-gray.png" alt="">
+                                <h6>1GB  Cloud storage</h6>
+                            </div>
+                            <div class="inline-flex gap-3 items-center mb-5">
+                                <img src="./img/list-style-gray.png" alt="">
+                                <h6>Email and community support</h6>
+                            </div>
+                        </div>
+
+                        <button class="py-8 w-[100%] items-center">
+                            <a class="bg-primary px-16 py-4 text-white font-montserrat rounded-md text-center" href="">Try for free</a>
+                        </button>
+
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+<section class="get bg-secondary py-10">
+    <div class="container">
+        <div class="flex justify-between">
+      <div>
+        <h1 class="text-huge pt-10 text-white ">Get In Touch</h1>
+        <p class="text-white hidden md:flex">The gradual accumulation of information about atomic and 
+            small-scale <br>behaviour during the first quarter of the 20th </p>
+      </div>
+      <div class="pt-20">
+        <form action="">
+            <div class="inputGroup mb-3 flex">
+                <input class="border-2 rounded-md p-3" type="text" placeholder="Email">
+                <input class="bg-primary rounded-md p-3" type="submit" value="Subscribe">
+                </div>
+        </form>
+            </div>
+      </div>
+    </div>
+ 
+</div>
+
+</section>
+
+<footer class="py-12">
+    <div class="container">
+        <div class="footerwrapper md:grid grid-cols-4 gap-6 mx-12 mt-10">
+            <div class="footertype">
+                <h1 class="py-3 text-[1rem] font-bold">Get In Touch</h1>
+                <p class="py-2 text-gray-400">the quick fox jumps over<br> the 
+                    lazy dog</p>
+                    <div class="text-primary">
+                    <i class="fa-brands fa-facebook px-2"></i>
+                    <i class="fa-brands fa-instagram px-2"></i>
+                    <i class="fa-brands fa-twitter px-2"></i>
+                </div>
+
+            </div>
+              
+            <div class="footertype">
+                <h1 class="py-3 text-[1rem] font-bold">Company info</h1>
+                <div class="text-gray-400 py-3">
+                <a href="">About Us</a><br>
+                <a href="">Carrier</a><br>
+                <a href="">We Hiring</a><br>
+                <a href="">Blog</a><br>
+            </div>
+           
+            
+                </div>
+           
+                <div class="footertype">
+                    <h1 class="py-3 text-[1rem] font-bold">Resources</h1>
+                    <div class="text-gray-400 py-3">
+                    <a href="">Business Marketing</a><br>
+                    <a href="">User Analytic</a><br>
+                    <a href="">Live Chat</a><br>
+                    <a href="">Unlimited Support</a><br>
+                </div>
+               
+                
+                    </div>
+                    
+            <div class="footertype">
+                <h1 class="py-3 text-[1rem] font-bold">Features</h1>
+                <div class="text-gray-400 py-3">
+                <a href="">IOS & Android</a><br>
+                <a href="">Watch a Demo</a><br>
+                <a href="">Customers</a><br>
+                <a href="">API</a><br>
+            </div>
+           
+            
+                </div>
+                 
+                   
+                    
+                        </div>
+
+            </div>
+
+        </div>
+        <p class="text-center py-8 text-gray-400">Made With Love By Figmaland All Right Reserved </p>
+    </div>
+
+</footer>
+
+    <script>
+       const toggleMenu = document.querySelector('.toggleMenu');
+        const headerMobileNav = document.querySelector('.headerMobileNav');
+
+        toggleMenu.addEventListener('click', ()=>{
+            headerMobileNav.classList.toggle('active');
+        })
+    </script>
+    
+</body>
+</html>
